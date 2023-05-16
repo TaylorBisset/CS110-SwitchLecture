@@ -48,5 +48,11 @@ int main()
 		cout << "Your grade has a problem";
 		break;
 	}
-
+	/*
+	switch (switch_on)
+	{
+	default:
+		break;
+	}
+	*/
 }
