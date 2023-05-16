@@ -24,4 +24,29 @@ int main()
 		cout << "You're older than four!";
 		break;
 	}
+
+	cout << endl;
+
+	char grd = 'z';
+	cout << "Please enter your grade: ";
+	cin >> grd;
+	switch (grd) {
+	case 'a':
+		cout << "You're amazing.";
+		break;
+	case 'b':
+		cout << "You're doing good.";
+		break;
+	case 'c':
+		cout << "You're doing ok.";
+		break;
+	case 'd':
+	case 'f':
+		cout << "You're should come talk with me.";
+		break;
+	default:
+		cout << "Your grade has a problem";
+		break;
+	}
+
 }
